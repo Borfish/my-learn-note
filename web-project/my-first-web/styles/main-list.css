@@ -1,0 +1,355 @@
+main{
+    margin-bottom: 40px;
+}
+
+#all-work-list{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+#list{
+    display:flex;
+    width: 1130px;
+    margin: 20px 0 0 0;
+    justify-content: space-between;
+}
+
+#set-card{
+    width:1130px;
+    display:flex;
+}
+
+#one-card{
+    width:210px;
+    height:308px;
+    background: #fff;
+    border-radius: 4px;
+    display:inline-block;
+}
+
+#card-image{
+    width:210px;
+    height:158px;
+}
+
+#card-image img{
+    max-width:100%;
+    height:auto;
+    border-radius:4px;
+}
+
+#card-info{
+    width:178px;
+    height:75px;
+    padding: 11px 16px 13px 16px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.card-info-title{
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin:0;
+}
+
+.card-info-type{
+    font-size:12px;
+    color:#bbb;
+    margin:0px;
+    margin-bottom:17px;
+    height:18px;
+}
+
+.card-info-item{
+    font-size: 12px;
+    color:#bbb;
+    margin:0;
+}
+
+.sta-view ,.sta-commemt,.sta-like{
+    margin-right: 7px;
+    cursor:default;
+}
+
+span[class^=sta]:before,span[class^=sta]:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.sta-view:before{
+    background:url(../images/card-liulan.svg) 0 4px no-repeat;
+    background-size: 16px auto;
+}
+
+.sta-commemt:before{
+    background:url(../images/card-pinglun.svg) 0 2px no-repeat;
+    background-size: 16px auto;
+}
+
+.sta-like:before{
+    background:url(../images/card-zan.svg) 0 1px no-repeat;
+    background-size: 16px auto;
+}
+
+.card-item{
+    height: 50px;
+    display:flex;
+    align-items: center;
+    width:210px;
+    background-color:white;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.user-head a{
+    width:120px;
+    line-height: 24px;
+    font-size: 12px;
+    color:#333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
+
+.user-head a img{
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    vertical-align: middle;
+    padding:0 0 0 16px;
+}
+
+.time{
+    line-height: 50px;
+    font-size: 12px;
+    float: right;
+    color: #bbb;
+    padding:0 16px 0 0;
+}
+
+#one-card a{
+    text-decoration: none;
+    color:black;
+}
+#one-card a:hover{
+    color:#d36f16
+}
+
+#pageturning{
+    margin: 30px 0 0 0;
+    display:flex;
+    height:40px;
+    justify-content: center;
+}
+
+#pageturning ul{
+    width:470px;
+    display:flex;
+    list-style-type: none;
+    justify-content:space-between;
+    height:40px;
+    margin:0px;
+    padding:0px;
+}
+
+#pageturning ul li{
+    display:inline-block;
+    width:38px;
+    height:38px;
+    border:1px solid #E9E9E9;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#pageturning ul li a{
+    text-decoration: none;
+    display:inline-block;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    color:#bbb;
+}
+
+#pageturning ul #using a{
+    color:black;
+    background-color: #ffe300;
+}
+
+#pageturning ul li a:hover{
+    background-color: #ffe300;
+    color:black;
+}
+
+#two-adv{
+    margin:30px 0 0 0;
+    display:flex;
+    height: 100px;
+    justify-content: center;
+}
+
+#two-adv div{
+    display:flex;
+    width:1130px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#two-adv a{
+    display: inline-block;
+    width:555px;
+    height: 100%;
+    border-radius: 4px;
+}
+
+#two-adv a img{
+    width:555px;
+    height: 100%;
+    border-radius: 4px;
+}
+
+#collection{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#item{
+    width:1130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#label{
+    width:1130px;
+    display:flex;
+    justify-content: space-between;
+    margin:20px 0;
+    height: 19.20px;
+}
+
+#label a{
+    text-decoration: none;
+    color:#d36f16;
+}
+
+#details{
+    display:flex;
+    width:1130px;
+    justify-content: space-between;
+}
+
+#coll-card{
+    width:210px;
+    height: 253px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#coll-card a{
+    display: inline-block;
+    width:190px;
+    height:144px;
+    margin:10px 10px 0 10px;
+}
+
+#coll-card img{
+    width:190px;
+    height: 144px;
+    border-radius: 4px;
+}
+
+#coll-info{
+    padding:5px 16px 13px 16px;
+    width: 178px;
+    height: 75px;
+}
+
+#info-title{
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height:20px;
+    margin:0;
+}
+
+#info-title a{
+    font-size: 14px;
+    color:#333;
+    margin:0;   
+    text-decoration:none;
+}
+
+#info-title p{
+    margin-bottom: 3px;
+}
+
+#info-title a:hover{
+    color:#d36f16;
+}
+
+#tag-color{
+    color: #FF8000;
+    background: rgba(255,128,0,.08);
+    height: 18px;
+    font-size: 12px;
+    border-radius: 2px;
+    display: inline-block;
+    line-height: 18px;
+    margin-bottom: 14px;
+}
+
+#tag-color span{
+    font-size: 12px;
+    display: block;
+}
+
+#info-item{
+    font-size: 12px;
+    color: #bbb;
+    margin: 0;
+    padding: 0;
+}
+
+.sta-content:before{
+    background:url(../images/card-contents.svg) 0 3px no-repeat;
+    background-size: 16px auto;
+}
+
+.sta-collect:before{
+    background:url(../images/shoucang.svg) no-repeat;
+    background-size: 16px 16px;
+}
+
+.sta-content{
+    margin:0 3px 0 0;
+}
+
+#set-of-detail{
+    display:flex;
+    justify-content: space-between;
+    width:1130px;
+}
+
+#list #one-card #card-image img:hover{
+    opacity: .8;
+}
+
+#coll-card img:hover{
+    opacity: .8 ;
+}

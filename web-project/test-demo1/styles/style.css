@@ -1,0 +1,7 @@
+.box {
+  border: 5px solid #000;
+ border-radius: 10px;
+ background-image: url("../images/setu.png");
+ background-size: contain;
+}
+

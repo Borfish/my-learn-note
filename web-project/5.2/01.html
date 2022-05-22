@@ -1,0 +1,54 @@
+<!-- 题目1，实现三栏布局，要求main元素在中间显示，不可修改html结构 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  .container{
+    display:flex;
+    justify-content: space-between;
+    height:900px;
+  }
+
+  .main
+  {
+      order:2;
+      flex:1;
+  }
+
+  .sub
+  {
+      order:1;
+      background-color: brown;
+  }
+
+  .extra
+  {
+      order:3;
+      background-color: black;
+  }
+
+  div{
+    display:flex;
+  }
+
+  .extra, .sub
+  {
+      flex:0.25;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="main"></div>
+    <div class="sub"></div>
+    <div class="extra"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,172 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-color: rgb(244, 244, 244);
+}
+
+header{
+    width:100%;
+    height:56px;
+    background:#ffe300;
+    display:flex;
+    justify-content: center;
+}
+
+header nav{
+    height:56px;
+    display:flex;
+    justify-content: space-between  ;
+    align-items: center;
+    width:1379.2px
+}
+
+header .logo{
+    padding:0 90px 0 0;
+}
+
+header #nav{
+    display: flex;
+    list-style: none;
+    margin:0;
+    justify-self:center;
+    padding: 0 0px 0 0;
+    width:683.56px;
+}
+
+header ul li{
+    padding:0;
+    line-height: 56px;
+    /*font-weight: 600;*/
+}
+
+header ul li a{
+    padding:0 24px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.other{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:210px;
+    justify-content: flex-end;
+}
+
+.other a{
+    width:60px;
+}
+
+.other a img[src*="nav-upload.svg"]{
+    width:30px;
+    height:30px;
+    padding:13 15px;
+}
+
+.other a img[src*="nav-search.svg"]{
+    width:20px;
+    height:20px;
+}
+
+.other ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding:0px;
+}
+
+.other i{
+    padding: 0 10px;
+}
+
+#home-page ul, 
+#find ul,
+#cread ul,
+#action ul,
+#zhenban ul,
+#class ul,
+#protect ul,
+#other ul
+{
+    position:absolute;
+    width:152px;
+    height:0;
+    opacity: 0;
+    overflow: hidden;
+    list-style: none;
+    padding:0;
+    box-shadow: 0 1px 12px 0 rgb(0 0 0 / 20%);
+    border-radius: 4px;
+}
+
+#home-page ul li,
+#find ul li,
+#cread ul li,
+#action ul li,
+#zhenban ul li,
+#class ul li,
+#protect ul li,
+#other ul li
+{
+    display:block;
+    width:152px;
+}
+
+#home-page ul a,
+#find ul a,
+#cread ul a,
+#action ul a,
+#zhenban ul a,
+#class ul a,
+#protect ul a,
+#other ul a
+{
+    width: 100%;
+    text-decoration: none;  
+    padding:0 20px;
+    height:100%;
+    display:inline-block;
+}
+
+#home-page:hover, 
+#find:hover,
+#cread:hover,
+#action:hover,
+#zhenban:hover,
+#class:hover,
+#protect:hover,
+#other:hover
+{
+    background-color: black;
+    color:#ffe300;
+}
+
+#home-page:hover ul,
+#find:hover ul,
+#cread:hover ul,
+#action:hover ul,
+#zhenban:hover ul,
+#class:hover ul,
+#protect:hover ul,
+#other:hover ul
+{
+    height:auto;
+    opacity:1;
+    background-color:white;
+    color:black;
+}
+
+#home-page ul li:hover,
+#find:hover ul li:hover,
+#cread ul li:hover,
+#action ul li:hover,
+#zhenban ul li:hover,
+#class ul li:hover,
+#protect ul li:hover,
+#other ul li:hover
+{
+    background-color:#ffe300;
+}
